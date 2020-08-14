@@ -128,16 +128,19 @@ Our machine learning approach included performing the following key tasks:
 In our evaluation of building PCA model in AWS Sagemaker, we examined the makeup of each PCA component based on the weightings of the original features that are included in the component. For example, the following image shows __PCA Component Makeup: #3__. This component describes attributes of states that have high poverty, __high Black deaths and cases__, high indicators for ending stay at home policies and initiating re-opening mandates. These insights proved to be very valuable for us in the population segmentation process using K-means clustering.  
 
 __PCA Component Makeup: #3__
+
 <IMG SRC="./PCA_3.png" ALT="PCA_3">
 
 K-means is a clustering algorithm that identifies clusters of similar states based on their attributes. Since we had __228__ attributes in our original dataset, the large feature space may have made it difficult to cluster the states effectively. Instead, we reduced the feature space to 5 PCA components and implemented K-means algorithm to create (4) clusters.
 
 __K-means |  4 Clusters__
+
 <IMG SRC="./Cluster_Size.png" ALT="Cluster_Size">
 
 In order to draw conclusions from our model, we evaluated the cluster centers. These centers helped to describe which features were characterize in each cluster. By combining PCA and K-means clustering, the information contained in the model attributes within the trained model, enabled us to gain more insights on the data.
 
 __Combining PCA and K-means__
+
 <IMG SRC="./Centoids.png" ALT="Centoids">
 
 Using unsupervised learning, we clustered a dataset using K-means after reducing the dimensionality using PCA. By accessing the underlying models created within Amazon SageMaker, we were able to improve the explainability of our modelling and draw actionable conclusions. Using these techniques, we have been able to better understand the characteristics of different states in the US and segment them into groupings accordingly.
@@ -145,6 +148,7 @@ Using unsupervised learning, we clustered a dataset using K-means after reducing
 Based on our analysis we found Cluster 2, had a high correlation with the PCA component for __BelowPoverty/DeathBlackPercent__.
 
 __Analysis of Cluster 2__
+
 <IMG SRC="./Cluster_2_States_Data.png" ALT="Cluster_2_States_Data">
     
 In our analysis of the all of the clusters, we found that __Cluster 2__ best described how blacks in these states were being impacted by COVID-19.  This process revealed new features strongly associated with this segmentation, such as, __high poverty, high Black deaths and cases, high indicators for ending stay at home policies and initiating re-opening mandates.__

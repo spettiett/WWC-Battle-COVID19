@@ -200,7 +200,7 @@ __by Socioeconomic Issues__
 
 > These factors _also_ indicate an infrastructure issue in America and the need for having a __National Policy__ on __Health Care and Income Inequities__.
 
-Our recommendations involve having meaningful actions to support these communities and protect public health could include __protective policies for workers, including paid sick leave and provision of health insurance__.  For high poverty and unemployment policymakers should work to address minimizing the income inequality gap.
+Our recommendations involve having meaningful actions to support these communities and protect public health could include __protective policies for workers, including paid sick leave and provision of health insurance__.  For high poverty and unemployment policymakers should work to address __minimizing the income inequality gap__.
 
 During the pandemic to address poverty and unemployment we need to identify the black populations which need additional access to resources such as __testing, personal protective equipment, education, and support to implement recommended social distancing practices__; support food pantries and meal delivery services for food assistance; and __relief funds are available to the communities most in need__ by streamlining application processes and allowing for __extensions of subsidies when the crisis begins to subside__.
 
